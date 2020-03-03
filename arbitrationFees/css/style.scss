@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow&display=swap');
+$color1 : #ef2e41;
+$color2 : #ffffff;
+$color3 : #4a20aa;
+$color4 : #00e1a1;
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Barlow';
+    background-color: $color1;
+    min-width: 300px;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    h1{
+        font-size: 60px;
+        margin: 15px;
+        color: $color2;
+        text-align: center;
+    }
+    h2{
+        font-size: 35px;
+        margin: 15px;
+        color: $color2;
+        text-align: center;
+        background-color: $color3;
+        width: 600px;
+        padding: 5px 15px;
+    }
+    h4{
+        font-size: 45px;
+        margin: 15px;
+        color: $color2;
+        text-align: center;
+        // background-color: $color3;
+    }
+    h3{
+        font-size: 35px;
+        margin: 15px;
+        color: $color2;
+    }
+    a{
+        text-align: center;
+        margin: 10px;
+        text-decoration: none;
+        color: black;
+        background-color: $color3;
+        padding: 10px 30px;
+        color: $color2;
+        font-size: 20px;
+        font-weight: 900;
+        border-radius: 10px;
+        outline: none;
+        width: 250px;
+        transition: all 300ms;
+        cursor: pointer;
+    }
+    a:hover{
+        background-color: $color2;
+        color: $color3;
+    }
+    input, select, button{
+        width: 600px;
+        height: 50px;
+        border: 10px;
+        padding: 0px 15px;
+        outline: none;
+    }
+    select{
+        width: 630px;
+        margin-bottom: 20px;
+        color: black;
+        padding: 8px 16px;
+        border: 1px solid transparent;
+        border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+        cursor: pointer;
+        user-select: none;
+    }
+    button{
+        width: 630px;
+        background-color: $color3;
+        color: $color2;
+        font-size: 25px;
+        cursor: pointer;
+    }
+    #retour{
+        width: 80px;
+        margin-top: 50px;
+        background-color: $color4;
+    }
+    #retour:hover{
+        background-color: $color2;
+        color: $color4;
+    }
+}
+
+@media (max-width: 800px){
+    header h2{
+        font-size: 30px;
+        width: 550px;
+    }
+    header input{
+        width: 550px;
+    }
+    header select{
+        width: 580px;
+    }
+    header button{
+        width: 580px;
+    }
+    header h2 {
+        width: 450px;
+    }
+    header input {
+        width: 450px;
+    }
+    header select {
+        width: 480px;
+    }
+    header button {
+        width: 480px;
+    }
+}
+@media (max-width: 500px){
+    header h2 {
+        width: 350px;
+        font-size: 22px;
+    }
+    header input {
+        width: 350px;
+    }
+    header select {
+        width: 380px;
+    }
+    header button {
+        width: 380px;
+    }
+}
+@media (max-width: 400px){
+    header h1{
+        font-size: 45px;
+    }
+    header h4{
+        font-size: 30px;
+    }
+    header a{
+        width: 210px;
+    }
+    header h2{
+        width: 280px;
+        font-size: 22px;
+        padding: 5px 5px;
+    }
+    header input {
+        width: 280px;
+    }
+    header select {
+        width: 290px;
+    }
+    header button {
+        width: 290px;
+    }
+    header input {
+        width: 260px;
+    }
+}

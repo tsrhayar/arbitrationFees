@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css?family=Barlow&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: 'Barlow';
+  background-color: #ef2e41;
+  min-width: 300px;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 50px;
+}
+
+header h1 {
+  font-size: 60px;
+  margin: 15px;
+  color: #ffffff;
+  text-align: center;
+}
+
+header h2 {
+  font-size: 35px;
+  margin: 15px;
+  color: #ffffff;
+  text-align: center;
+  background-color: #4a20aa;
+  width: 600px;
+  padding: 5px 15px;
+}
+
+header h4 {
+  font-size: 45px;
+  margin: 15px;
+  color: #ffffff;
+  text-align: center;
+}
+
+header h3 {
+  font-size: 35px;
+  margin: 15px;
+  color: #ffffff;
+}
+
+header a {
+  text-align: center;
+  margin: 10px;
+  text-decoration: none;
+  color: black;
+  background-color: #4a20aa;
+  padding: 10px 30px;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 900;
+  border-radius: 10px;
+  outline: none;
+  width: 250px;
+  -webkit-transition: all 300ms;
+  transition: all 300ms;
+  cursor: pointer;
+}
+
+header a:hover {
+  background-color: #ffffff;
+  color: #4a20aa;
+}
+
+header input, header select, header button {
+  width: 600px;
+  height: 50px;
+  border: 10px;
+  padding: 0px 15px;
+  outline: none;
+}
+
+header select {
+  width: 630px;
+  margin-bottom: 20px;
+  color: black;
+  padding: 8px 16px;
+  border: 1px solid transparent;
+  border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+header button {
+  width: 630px;
+  background-color: #4a20aa;
+  color: #ffffff;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+header #retour {
+  width: 80px;
+  margin-top: 50px;
+  background-color: #00e1a1;
+}
+
+header #retour:hover {
+  background-color: #ffffff;
+  color: #00e1a1;
+}
+
+@media (max-width: 800px) {
+  header h2 {
+    font-size: 30px;
+    width: 550px;
+  }
+  header input {
+    width: 550px;
+  }
+  header select {
+    width: 580px;
+  }
+  header button {
+    width: 580px;
+  }
+  header h2 {
+    width: 450px;
+  }
+  header input {
+    width: 450px;
+  }
+  header select {
+    width: 480px;
+  }
+  header button {
+    width: 480px;
+  }
+}
+
+@media (max-width: 500px) {
+  header h2 {
+    width: 350px;
+    font-size: 22px;
+  }
+  header input {
+    width: 350px;
+  }
+  header select {
+    width: 380px;
+  }
+  header button {
+    width: 380px;
+  }
+}
+
+@media (max-width: 400px) {
+  header h1 {
+    font-size: 45px;
+  }
+  header h4 {
+    font-size: 30px;
+  }
+  header a {
+    width: 210px;
+  }
+  header h2 {
+    width: 280px;
+    font-size: 22px;
+    padding: 5px 5px;
+  }
+  header input {
+    width: 280px;
+  }
+  header select {
+    width: 290px;
+  }
+  header button {
+    width: 290px;
+  }
+  header input {
+    width: 260px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

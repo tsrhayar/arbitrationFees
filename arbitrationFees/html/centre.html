@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Frais d'Arbitrage</title>
+</head>
+<body>
+    <header>
+        <h2>ARBITRE DE CENTRE</h2>
+        <h3>Kilométrage</h3>
+            <input type="number" placeholder="enter le nombre des kilométres" min="25" id="distance">
+            <h3>Division</h3>
+            <select id="frais">
+                <option value="0">-- Enter la division --</option>
+                <option value="3000">PRO 1</option>
+                <option value="2000">PRO 2</option>
+                <option value="1300">National</option>
+                <option value="1000">AMATEUR 1</option>
+                <option value="800">AMATEUR 2</option>
+                <option value="750">FEMININE 1 OU 2</option>
+            </select>
+            <button onclick="validation()">Valider</button>
+            <a href="../index.html" id="retour">RETOUR</a>
+    </header>
+
+    <script src="../js/centre.js"></script>
+</body>
+</html>
